@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Fio & Davi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+  </head>
+<body onload="fun()"><!-- You didn't invoke the function here -->
+
+</br>
+</br>
+  
+  <div class=" container  contenedorC ">
+  </br>
+  <form action="/confirmar" method="post">
+      <div class="row">
+
+
+        <div class="col s12 m4 l2"></div>
+    <div class="col s12 m4 l8">
+       <label style="font-size: 40px ; color: #1C344D; text-align: center; font-weight: bold"  for="fname">Nombre </label>
+       <input style="font-size: 30px ; color: #1C344D; font-family: 'Tangerine', cursive;" type="text" id="fname" name="fname" disabled="">
+      </br>
+    </br>
+       <label style="font-size: 40px ; color: #1C344D; text-align: center; font-weight: bold"  for="lname">¿Asistirán al evento?</label>
+       <p>
+        <label>
+          <input type="radio" class="with-gap" name="asistencia" value="si" />
+          <span style="font-size: 25px ; color: #1C344D; text-align: center; ">Sí</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" class="with-gap" name="asistencia" value="no" />
+          <span style="font-size: 25px ; color: #1C344D; text-align: center; ">No</span>
+        </label>
+      </p>
+    </br>
+      <label style="font-size: 40px ; color: #1C344D; text-align: center; font-weight: bold" for="subject">Descripción</label>
+      <textarea style="border-color: #1C344D; height: 200px;"id="descripcion" name="descripcion" placeholder="En el caso que alguna persona no asista dentro de los espacios reservados, por favor indique el nombre. De lo contrario indique que asisten todos" style="height:200px"></textarea>
+    
+      <label style="font-size: 40px ; color: #1C344D; text-align: center; font-weight: bold" for="subject">Deja un mensaje para los novios</label>
+      <textarea style="border-color: #1C344D; height: 200px;"id="mensaje" name="mensaje" style="height:200px"></textarea>
+        <button type="submit" style="margin: 10px" class="btn  " onclick="act()" >Confirmar
+        </form>
+      </br>
+        <button id="GetButton" style="margin: 10px"  class="btn   " onclick="prin()">Regresar
+        
+      </div>
+    
+    </div>
+    <div class="col s12 m4 l2"></div>
+     
+      </div>
+    
+   
+    </br>
+  </br>
+    
+    
+  </div>
+
+ 
+
+  
+  <%- include ('_footer.ejs'); -%>
+
+  

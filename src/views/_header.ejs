@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Fio & Davi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2.min.css">
+
+  
+  <div class="navbar-fixed">
+    <nav style="background-color:#1C344D ;">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" style="font-family: 'Tangerine', cursive; font-size: 35px;" class="brand-logo">F & D</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul  class="right hide-on-med-and-down">
+                  <li>
+                    <a href="#cuenta"  style="font-family: 'Tangerine', cursive; font-size: 35px;">Días para la boda</a>
+                </li>
+                <li>
+                    <a href="#ubicacion" style="font-family: 'Tangerine', cursive; font-size: 35px;">Ubicación</a>
+                </li>
+                <li>
+                    <a href="#momentos" style="font-family: 'Tangerine', cursive; font-size: 35px;">Nuestros momentos</a>
+                </li>
+                <li>
+    <a href="#confirmar" style="font-family: 'Tangerine', cursive; font-size: 35px;">Confirmar asistencia</a>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<ul class="sidenav" id="mobile-demo">
+  
+  <li>
+      <a href="#cuenta" style="font-family: 'Tangerine', cursive; font-size: 35px;" >Días para la boda</a>
+  </li>
+  <li>
+      <a href="#ubicacion" style="font-family: 'Tangerine', cursive; font-size: 35px;">Ubicación</a>
+  </li>
+  <li>
+      <a href="#momentos" style="font-family: 'Tangerine', cursive; font-size: 35px;">Nuestros momentos</a>
+  </li>
+  <li>
+    <a href="#confirmar" style="font-family: 'Tangerine', cursive; font-size: 35px;">Confirmar asistencia</a>
+</li>
+  
+</ul>
+</head>
+
+<body >
+
+  <div class="princi">
+    <img class=" imgChanchito responsive-img z-depth-5"   src="./Fiorella.gif"> 
+  </div>
+
+  <div class="princi2 center-align"  >
+    <img class="  responsive-img z-depth-5"   > 
+  </div>
+ 
+ 
+  <div class="parallax1"></div>
+  <div class="section white " style="background-image: url(./carta.jpg) ;">
+    <div class="row container">
+     
+      <section id="ubicacion" class="section  center  ">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card-panel body5 z-depth-5 " style="border-radius: 12px; background-color: #1C344D">
+                <img src="./basilica.jpg" class="responsive-img" style="border-radius: 12px;">
+              </br>
+            </br>
+                <img src="./cere.png" class="responsive-img" style="border-radius: 12px;">
+                <br>
+                <a href="https://goo.gl/maps/Pf91NbjNwi8xhfJu6" style="font-size: large;" class="red-text text-lighten-4">ver ubicación</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel body5  z-depth-5" style="border-radius: 12px; background-color: #1C344D">
+               
+            
+                <img src="./formal.jpg" class="responsive-img" style="border-radius: 12px;">
+                <br>
+                
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel body5  z-depth-5" style="border-radius: 12px; background-color: #1C344D">
+                <img src="./sitio.jpg" class="responsive-img" style="border-radius: 12px;">
+              </br>
+            </br>
+                <img src="./rece.png" class="responsive-img" style="border-radius: 12px;">
+                <br>
+                <a href="https://goo.gl/maps/erpjgDcH3EXKtqACA"  style="font-size: large;" class="red-text text-lighten-4">ver ubicación</a>
+              </div>
+            </div>
+         
+     
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <div class="parallax2"></div>
+
+  <div class="section white " style="background-image: url(./carta.jpg) ;">
+    <div class="row container">
+      <section id="cuenta" class="section  center  ">
+
+
+        <div class="body2">
+         
+          <div class="wrapper" style="border-radius: 12px;">
+            <div class="">
+              
+              <h3 class="title3 ">Cuenta regresiva</h3>
+         
+              <div class="countdown-container">
+                <div>
+                  <p id="days" class="big-text  ">0</p>
+                  <span class="title2 ">Días</span>
+                </div>
+                <div>
+                  <p id="hor" class="big-text  ">0</p>
+                  <span class="title2 ">Horas</span>
+                </div>
+                <div>
+                  <p id="min" class="big-text ">0</p>
+                  <span class="title2">Min</span>
+                </div>
+                <div>
+                  <p id="sec" class="big-text ">0</p>
+                  <span class="title2">Sec</span>
+                </div>
+              </div>
+           
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <div class="parallax3"></div>
+
+  <div class="section white " style="background-image: url(./carta.jpg) ;">
+    <div class="row container">
+      <section id="momentos" class="section  center  ">
+        <div class="row">
+          <div class="col s12 center-align">
+               <h1 class="title3 "> Nuestros momentos  <img src="./florvino.png" ></h1>
+          </div>
+      </div>
+      </section>
+      
+     
+        <div class="row">
+      <div class="contenedorC">
+      <section class="slider" style="border-radius:2% ;">
+        <ul class="slides">
+           
+            <li >
+                <img class="responsive-img" src="./comp5.jpg" style="width:100%"   >
+             
+            </li>
+            <li>
+                <img  class="responsive-img" src="./comp4.jpg" style="width:100%"  >
+               
+            </li>
+            <li>
+              <img  class="responsive-img" src="./comp2.jpg"  >
+             
+          </li>
+         
+          
+        </ul>
+      </section>
+      </div>
+      </div>
+    
+    </div>
+  </div>
+ 
+  <div class="section white " style="background-image: url(./carta.jpg) ;">
+    <div class="row container">
+      <div class="container center-align ">
+        <div class="row">
+          <br>
+          <div class="col s12 body3 ">
+            <img class="responsive-img " src="./boda8.jpeg" style="border-radius: 12px;">
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    </div>
+  </div>
+  <div class="parallax5"></div>
+
+</br>
+<!-- Aquí puedes escribir tu comentario -->
+<!--<div class="container" >-->
+ <!-- <div class="contenedorI">-->
+
+ <!--<div class=" center-align ">-->
+ 
+  <!-- <img class="responsive-img " style="border-radius: 12px;" src="./rosas4.jpg"> -->
+    <!--    <img class="responsive-img z-depth-5 " style="border-radius: 2%;"  src="./Fiorella.gif"> -->
+
+  <!-- </div>-->
+  <!--</div>-->
+ <!--</div>-->
+
+
+ 
+
+
+ 
+  
+
+
+

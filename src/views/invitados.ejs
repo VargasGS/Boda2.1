@@ -1,0 +1,69 @@
+<%- include ('_header.ejs'); -%>
+
+ <section id="confirmar">
+     
+        <div class=" container  contenedorC ">
+        </br>
+          <div class="row">
+
+            <div class="col s12 m4 l2" ></div>
+            <div class="col s12 m4 l8">
+            
+              <div >
+                <label style="font-size: 50px ; color: #1C344D; text-align: center; font-weight: bold" for="fname">Nombre completo</label>
+                <input  style="font-size: 30px ; color: #1C344D; font-family: 'Tangerine', cursive;" type="text" id="nombre" name="nombre" >
+  
+              </div>
+              <div >
+                <label style="font-size: 50px ; color: #1C344D; text-align: center; font-weight: bold"for="fname">Campos reservados: </label>
+              </div>
+              <div style="font-weight: bold; font-size: 50px; text-align: center;"  id="campos">
+  
+              </div>
+  
+              <table class="classcentered highlight centered " id="campos2">
+                <thead>
+                  <tr>
+                    <th style="font-size: 50px ; color: #1C344D; text-align: center;">Invitados </th>
+  
+                  </tr>
+                </thead>
+                <tbody style="font-size: 40px ; color: #1C344D; text-align: center;">
+                </tbody>
+              </table>
+            </div>
+            
+          </br>
+        </br>
+     
+        <div class="row">
+          <div class="col s12">
+            <div  style=" text-align: center;"class="row">
+              <button id="GetButton"  class="btn  " onclick="GetCampos(),GetCampos2()">Obtener
+                Campos</button>
+            </div>
+          </div>
+        </div>
+       
+            <div class="row">
+              <div class="col s12">
+              <button  id="btnContinuar" class="btn " onclick="SetUserName()">Continuar</button>
+            </div>
+          </div>
+            </div>
+            <div class="col s12 m4 l2"></div>
+
+           
+           
+          </div>
+      
+        </br>
+
+
+      
+    </div>
+
+  </section>
+
+
+  <%- include ('_footer.ejs'); -%>

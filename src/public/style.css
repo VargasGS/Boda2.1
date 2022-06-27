@@ -1,0 +1,475 @@
+.princi{
+  border-radius: 2%; display: flex; justify-content: center;
+  display: none;
+
+}
+
+.princi2{
+ 
+display: block;
+background: url("./F & D.gif");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+/* Set a specific height */
+min-height: 900px; 
+}
+
+.imgChanchito{
+  display: block;
+}
+
+.parent{
+  text-align : center;
+  position: relative;
+  background-color: #4A6788;
+ }
+body{
+
+
+
+background-image: url(./carta.jpg);
+background-position: center;
+background-attachment: fixed;
+background-color: #1C344D;
+background-size: auto;
+height: 100%;
+
+
+
+}
+
+.contenedorI{
+  background-color:  #1C344D;
+  width: auto;
+  border: 15px solid  #4A6788;
+  border-radius: 2%;
+  padding: 50px;
+  margin: 20px;
+
+}
+.contenedorC{
+  
+  border: 10px solid  #1C344D;
+background-color: #fed8cc;
+border-radius: 2%;
+font-family: 'Tangerine', cursive;
+font-size: large;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1C344D;
+  opacity: 1; /* Firefox */
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+
+}
+
+.centrado {
+  width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 14px ;
+}
+
+
+
+/* Start Main Rule */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.body2 {
+ /* background-image: url("./anillo.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2%;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family: 'Tangerine', cursive;
+  position: relative;
+
+}   
+.overlay{
+
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:white;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+.countdown-container{
+  display:flex;
+}
+.big-text{
+  font-size:4rem;
+}
+.title{
+ 
+
+  margin:10px;
+  text-align:center;
+  color:#1C344D;
+  width:100%;
+  letter-spacing:2px;
+  font-size: 3em;
+  line-height: 5.5rem;
+  
+}
+
+.title2{
+
+  color: #1C344D;
+ 
+  font-size: 3rem;
+ 
+}
+
+.title3{
+  margin:12px;
+  text-align:center;
+  color:#1C344D;
+  font-family: 'Tangerine', cursive;
+  font-size: 7rem;
+ 
+}
+.title4{
+  font-family: 'Tangerine', cursive;
+}
+.title span{
+  display:block;
+  font-size:6rem;
+  letter-spacing:2rem;
+}
+.wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  min-height:100vh;
+  border-radius: 12px;
+}
+.countdown-container > div{
+  margin:0 2rem;
+  text-align: center;
+  background-color: #fed8cc;
+  border:3px solid #1C344D;
+  padding:0px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  color:#1C344D;
+  min-width:150px;
+}
+@media (max-width:992px){
+  .countdown-container > div{
+    margin:0 1rem;
+  }
+}
+@media (max-width:767px){
+  .countdown-container{
+    flex-wrap: wrap;
+  }
+  .countdown-container > div{
+    margin:1rem auto;
+    max-width:150px;
+  }
+  .title{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin:10px 0px;
+  }
+  .title span{
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .parallax-container{
+    height: 100px;
+  }
+
+ 
+ 
+ 
+}
+
+@media only screen and (max-width: 5000px) {
+  .parallax-container{
+    height: 800px;
+  }
+
+ 
+ 
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("./comp7.jpg");
+  width: 100%;
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("./comp3.jpg");
+  width: 100%;
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background: url("./comp1.jpg");
+  height: 1000px;
+  width: 100%;
+  position: relative;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("./comp7.jpg");
+  width: 100%;
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax5 {
+  /* The image used */
+  background-image: url("./comp8.jpg");
+  width: 100%;
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+.body3{
+  background-color: #1C344D;
+  color: white;
+
+
+  border-radius: 2%;
+
+}
+.body5{
+  background-color: white;
+  color: white;
+}
+
+.body4{
+  border: 2px solid #4A6788;
+background-color: white;
+}
+
+
+
+
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  border-bottom: 1px solid #697481 !important;
+  box-shadow: 0 1px 0 0 #4A6788 !important;
+}
+
+
+
+/* Style the label to display next to the inputs */
+.label2 {
+  color: #4A6788;
+  
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color:#1C344D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container3 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+#btnContinuar{
+display: none;
+
+margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+  background-color: #4A6788;
+
+  
+}
+.btn:visited{
+  background-color: #4A6788
+}
+.btn:hover {
+  background-color:#4A6788
+}
+.btn:active{
+  background-color: #4A6788
+}
+.btn:focus{
+  background-color: #4A6788
+}
+
+[type="radio"]:checked + span:after,
+ 
+[type="radio"].with-gap:checked + span:before,
+ 
+[type="radio"].with-gap:checked + span:after {
+ 
+  border: 2px solid #4A6788;
+ 
+}
+ 
+[type="radio"]:checked + span:after,
+ 
+[type="radio"].with-gap:checked + span:after {
+ 
+  background-color: #4A6788;
+ 
+}
+
+
+.galeria img {
+  box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+  border-radius: 15px;
+}
+
+.materialbox-caption {
+  bottom: 30px;
+  right: 0;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  background: #000;
+  box-shadow: 5px 5px #fff;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.galeria .col {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+  .materialbox-caption {
+       width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .materialbox-caption {
+       width: 70%;
+  }
+}
+
+
+@media screen and  (max-width: 800px) {
+ 
+.princi{
+  display: block;
+}
+
+  .princi2{
+    display:none;
+   
+   }
+}
+
+
+
+

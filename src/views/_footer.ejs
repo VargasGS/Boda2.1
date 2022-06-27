@@ -1,0 +1,72 @@
+
+
+
+<script src="./operaciones.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.6/dist/sweetalert2.all.min.js"></script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+
+        $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+	const imgLightBox = document.querySelectorAll('.materialboxed');
+	M.Materialbox.init(imgLightBox, {
+		inDuration: 500,
+		outDuration: 500
+	});
+});
+
+</script>
+
+
+<script type="text/javascript">
+  var reserva = "<%= data2%>";
+  if (reserva !== null && reserva !== "") {
+
+      Swal.fire(
+          '',
+          reserva,
+          'error'
+      )
+}
+</script>
+
+
+<script type="text/javascript">
+  var reserva = "<%= data3%>";
+  if (reserva !== null && reserva !== "") {
+
+      Swal.fire(
+          '',
+          reserva,
+          'success',
+        
+      )
+
+     
+}
+</script>
+
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+<footer class="section body3 center">
+    <p  style="font-family: 'Tangerine', cursive; font-size: 35px;">F&D</p>
+</footer>
+
+</body>
+
+</html>
